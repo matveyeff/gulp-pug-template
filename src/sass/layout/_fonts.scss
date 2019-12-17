@@ -17,3 +17,5 @@
 		src: url($f-url) format('woff2');
 	}
 }
+
+@include font('Open Sans', normal, 400, '../fonts/OpenSans-Regular.woff2');
