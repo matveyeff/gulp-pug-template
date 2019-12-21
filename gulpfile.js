@@ -116,7 +116,7 @@ function watch() {
   gulp.watch(paths.src + 'views/**/*.pug', htmls);
   gulp.watch(paths.src + 'js/**/*.js', scripts);
   gulp.watch(paths.src + 'img/**/*.{jpg,jpeg,png,gif,svg,ico}', images);
-  gulp.watch(paths.src + 'fonts/*.woff2', fonts);
+  gulp.watch(paths.src + 'fonts/*.{woff, woff2}', fonts);
   gulp.watch(paths.src + 'svg/*.svg', svgSprite);
 }
 
