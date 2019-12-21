@@ -52,7 +52,7 @@ function styles() {
 		.pipe(autoprefixer({
 			cascade: false,
 			grid: true,
-			overrideBrowserslist: ['last 2 versions'],
+			overrideBrowserslist: ['last 8 versions'],
 		}))
 		.pipe(cleanCSS())
 		.pipe(rename({ suffix: ".min" }))
